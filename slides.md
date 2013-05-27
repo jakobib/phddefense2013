@@ -32,6 +32,12 @@ Data = digital documents = digital objects = ...
 
 ![](img/triangle-unlimited.png)
 
+## Data modeling
+
+Creation of data is an an act of design, often performed implicitly.
+
+![](img/simpledatamodeling.png)
+
 ## Methods of data structuring & description
 
 ![](img/methods.png)
@@ -47,32 +53,20 @@ Data = digital documents = digital objects = ...
   data structuring and description, *independent from* particular
   technologies and trends?
 
-## Phenomenological research method
-
-<!--  
-* intuiting > analyzing > describing
-* phenomena must be experienced to reveal their *essence* 
--->
-
-* Study of data methods as *phenomena*
-* Comprehensive, in-depth collection and review of all methods 
-* focus on conceptual properties, finally find
-  common patterns
-
 ## Results
 
-* **categorization** (5)\
-  identify the intended purposes of methods\
+1. **categorization** (5)\
+   identify the intended purposes of methods\
 
-* **paradigms** (6)\
-  reveal hidden assumptions and blind spots of
-  methods and their applications
+2. **paradigms** (6)\
+   reveal hidden assumptions and blind spots of
+   methods and their applications
 
-* **pattern language** (20)\
-  shows typical problems and solutions independent from
-  particular trends and technologies
+3. **pattern language** (20)\
+   shows typical problems and solutions independent from
+   particular trends and technologies
 
-## Categorization of data methods
+## 1. Categorization of data methods
 
 What does a particular technology, standard etc. actually do?
 
@@ -89,18 +83,29 @@ What does a particular technology, standard etc. actually do?
 * **conceptual models** (ERM, mind maps, diagrams...)\
   *describe* data
 
-
-## Example of a paradigm: Entites and Connections
+## 2. Paradigm example: Entites and Connections
 
 <!-- Data structuring and description is shaped by fundamental paradigms. -->
 
-![](img/authorship.png)
+*...reveal hidden assumptions and blind spots that shape data*
 
-## Example of a paradigm: Entites and Connections
+![](img/entities.png)
 
-![](img/authorship-transformed.png)
+<!-- its difficult to switch in this artificial selection -->
 
-## The pattern language
+## 3. Pattern examples
+
+![](img/patternanalysis-1.png)
+
+## 3. Pattern examples
+
+![](img/patternanalysis-2.png)
+
+## 3. Pattern examples
+
+![](img/patternanalysis-3.png)
+
+## 3. The pattern language
 
 ![](img/graph.png)
 
@@ -111,20 +116,18 @@ What does a particular technology, standard etc. actually do?
 * The more familiar you are with a pattern language, the more useful it gets.
 -->
 
-## Example of a pattern / its application
-
-...TODO...
-
 ## Applications, benefit, contribution
 
-* Patterns as novel approach for data description
-* Show benefits and limitations of different methods of
-  data structuring and description
+* Patterns are a novel approach for data analysis
+* Show benefits and limitations of different methods
+  of data structuring and description
 * Possible Applications
 
-  * data archeology
-  * data linguistics
-  * ...
+    * data archeology
+    * data linguistics
+    * data integration
+    * data modeling
+    * ...
 
 ---
 
@@ -132,30 +135,67 @@ Thank you!
 
 <!-- # Additional slides -->
 
+## Phenomenological research method
 
-## Data modeling
+<!--  
+* intuiting > analyzing > describing
+* phenomena must be experienced to reveal their *essence* 
+* critical experiencing
+-->
 
-Creation of data is an creation as act of design.
-Data modeling is often performed implicitly.
+* Study of data methods as *phenomena*
+* Comprehensive, in-depth collection and review of all methods 
+* focus on conceptual properties, finally find
+  common patterns
 
-![](img/simpledatamodeling.png)
 
-## Limits of particular methods
+## Examples of methods and their limitations
 
 * SQL is bad at repetition groups and trees
 * RDF is bad at lists and closed sets
 * XML is bad at connections
+* Schema languages are difficult to understand
+* Diagrams are informal
 * ...
 
 ## Metadata
 
-Primary meaning of metadata: data definition (schemas, formats, rules...).
-Metadata is any digital document that structures or describes other data.
-
-examples: the hierarchical structure of a digital object (database, etc.),
-if expressed in some form, is metadata.
+* Either metadata as measurements or facts
+* Or metadata as data definition (schemas, formats, rules...)
+* Any digital document that structures or describes other data
+* Examples: hierarchical structure of a digital object (document, database, etc.),
 
 ## Possible Questions
 
-* what about image/video/audio data?
-* ...
+* Why was **image/video/audio data** excluded from analysis?
+
+    * Such data is mainly *data as recorded observatios*
+      instead of *data as communicated documents*. For instance
+      a bitmap image is just an array of pixels, each having a color.
+      The interesting content of an image, however, is not in this
+      structure but it can only be discoverd by measurement,
+      similar to data mining (*data as hard numbers*).
+
+* How does the results about data relate to **information**?
+
+	* My thesis is not about information but about data.
+      Data are *differences* (eventually bits) similar to
+      information in Shannon's theory of information. In the
+      general definition of information (GDI), information is
+      "meaningful, well-formed data". With data as signs,
+      information starts where models and meanings of data
+      refer to outside of the digital domain.
+
+## Possible Questions
+
+* How does one find the **correct and accurate pattern** to
+  represent a piece of information?
+
+    * The patterns are not meant to *represent* data or
+      information but to describe the problem or motivation
+      that led to a particular form of data. There is not one
+      *correct* pattern but there are adequate patterns.
+
+    * For instance one might define a canoncial form to express
+      sequences. This form, however, would not be the sequence
+      pattern, but *one application* of the sequence pattern.
