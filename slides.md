@@ -1,57 +1,43 @@
-## Research question
+## General research question
 
 More and more data, digital documents, metadata...
 
 * How is data actually structured and described?
 
-## What kind of data?
+## What is meant by data?
 
 Different notions of data exist:
 
-* **hard numbers**\
-  facts and reproducible measurements
-* **recorded observations**\
-  subjective and with context
-* **communicated documents**\
-  data as digital signs
+* *hard numbers*: facts, reproducible measurements
+* *recorded observations*: subjective, with context
+* **communicated documents**: digital signs\
+  eventually given as sequences of bits
 
-## Data as signs
+## Data as digital signs: insights from semiotics
 
-Data = digital documents = digital objects = ...
+<!-- Data = digital documents = digital objects = ... -->
+<!-- * data are artifacts designed for communication -->
 
-* created/designed artifacts, used for communication
-* connected to their meaning and content only by convention
+* data (=digital documents) have meaning and content 
+    * only by convention
+    * only mediated
 
-![](img/triangle.png)
-
-## Data as signs
-
-* part of an unlimited semiosis
-* eventually given as sequences of bits
-* (meta)data depends on the level of description
-
-![](img/triangle-unlimited.png)
-
-## Data modeling
-
-Creation of data is an an act of design, often performed implicitly.
-
-![](img/simpledatamodeling.png)
+![triangle of meaning](img/triangle-of-meaning.png)
 
 ## Methods of data structuring & description
 
 ![](img/methods.png)
 
-## Research question
+## Specific research question
 
 <!--
 * How are data, digital documents, data objects...
   actually structured and described?
 -->
 
-* What *common features* can be identified in different methods of
-  data structuring and description, *independent from* particular
-  technologies and trends?
+* What *common features* can be identified in\
+  (different methods of) data structuring and description\
+  *independent from* particular technologies and trends?
 
 ## Results
 
@@ -87,11 +73,22 @@ What does a particular technology, standard etc. actually do?
 
 <!-- Data structuring and description is shaped by fundamental paradigms. -->
 
-*...reveal hidden assumptions and blind spots that shape data*
+*blind spots and hidden assumptions that shape data*
 
 ![](img/entities.png)
 
 <!-- its difficult to switch in this artificial selection -->
+
+## 3. Pattern language
+
+> Patterns help us remember insights and knowledge about
+> design and can be used in combination to create solutions
+
+![](img/graph.png)
+
+<!-- 
+* The more familiar you are with a pattern language, the more useful it gets.
+-->
 
 ## 3. Pattern examples
 
@@ -105,28 +102,26 @@ What does a particular technology, standard etc. actually do?
 
 ![](img/patternanalysis-3.png)
 
-## 3. The pattern language
+## Summary
 
-![](img/graph.png)
+<!-- and Applications, benefit, contribution -->
 
-> Patterns help us remember insights and knowledge about
-> design and can be used in combination to create solutions
+* data analyzed as sign (communicated documents) ![](img/prettynew.png)
+* all kinds methods of data structuring and description ![](img/new.png)
+* categorization and paradigms:\
+  guides in the jungle of data methods
+* patterns in data structuring and description:\
+  a novel approach of data analysis ![](img/new.png)
 
-<!-- 
-* The more familiar you are with a pattern language, the more useful it gets.
--->
-
-## Applications, benefit, contribution
-
-* Patterns are a novel approach for data analysis
+<!--
 * Show benefits and limitations of different methods
   of data structuring and description
-* Possible Applications
+-->
+* applications
 
+	* data integration and modeling
     * data archeology
     * data linguistics
-    * data integration
-    * data modeling
     * ...
 
 ---
@@ -134,6 +129,19 @@ What does a particular technology, standard etc. actually do?
 Thank you!
 
 <!-- # Additional slides -->
+
+## Data as digital signs: insights from semiotics
+
+* signs are part of an unlimited semiosis
+* *meta* depends on the level of description
+
+![](img/triangle-unlimited.png)
+
+## Data modeling
+
+Creation of data is an an act of design, often performed implicitly.
+
+![](img/simpledatamodeling.png)
 
 ## Phenomenological research method
 
@@ -160,7 +168,7 @@ Thank you!
 
 ## Metadata
 
-* Either metadata as measurements or facts
+* Either metadata as facts or observations
 * Or metadata as data definition (schemas, formats, rules...)
 * Any digital document that structures or describes other data
 * Examples: hierarchical structure of a digital object (document, database, etc.),
