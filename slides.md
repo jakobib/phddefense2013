@@ -112,14 +112,9 @@ What does a particular technology, standard etc. actually do?
   guides in the jungle of data methods
 * patterns in data structuring and description:\
   a novel approach of data analysis ![](img/new.png)
-
-<!--
-* Show benefits and limitations of different methods
-  of data structuring and description
--->
 * applications
-
-	* data integration and modeling
+	* data modeling and integration
+    * data literacy
     * data archeology
     * data linguistics
     * ...
@@ -130,80 +125,80 @@ Thank you!
 
 <!-- # Additional slides -->
 
-## Data as digital signs: insights from semiotics
-
-* signs are part of an unlimited semiosis
-* *meta* depends on the level of description
-
-![](img/triangle-unlimited.png)
-
-## Data modeling
-
-Creation of data is an an act of design, often performed implicitly.
-
-![](img/simpledatamodeling.png)
-
-## Phenomenological research method
-
-<!--  
-* intuiting > analyzing > describing
-* phenomena must be experienced to reveal their *essence* 
-* critical experiencing
--->
-
-* Study of data methods as *phenomena*
-* Comprehensive, in-depth collection and review of all methods 
-* focus on conceptual properties, finally find
-  common patterns
-
-
 ## Examples of methods and their limitations
 
 * SQL is bad at repetition groups and trees
 * RDF is bad at lists and closed sets
 * XML is bad at connections
-* Schema languages are difficult to understand
-* Diagrams are informal
+* schema languages are difficult to understand and have artifacts
+* diagrams are informal
 * ...
 
-## Metadata
+## Phenomenological research method
 
-* Either metadata as facts or observations
-* Or metadata as data definition (schemas, formats, rules...)
-* Any digital document that structures or describes other data
-* Examples: hierarchical structure of a digital object (document, database, etc.),
+* study of data methods as *phenomena*
+* comprehensive, in-depth collection and review of all methods 
+* critical focus on conceptual aspects to finally find
+  common patterns
 
-## Possible Questions
+## Textual vs. non-textual data?
 
-* Why was **image/video/audio data** excluded from analysis?
+**Image/video/audio data** (binary, non-textual, blob... data)\
+was excluded from analysis.
 
-    * Such data is mainly *data as recorded observatios*
-      instead of *data as communicated documents*. For instance
-      a bitmap image is just an array of pixels, each having a color.
-      The interesting content of an image, however, is not in this
-      structure but it can only be discoverd by measurement,
-      similar to data mining (*data as hard numbers*).
+* such data is mainly *data as recorded observatios*
+  instead of *data as communicated documents*. 
+* e.g. a bitmap is just an array of pixels, each having a color.
+* the interesting content of an image is not in this
+  structure but only discoverd by image processing
+  (measurement, *data as hard numbers*).
 
-* How does the results about data relate to **information**?
+## How about a formal pattern ontology? 
 
-	* My thesis is not about information but about data.
-      Data are *differences* (eventually bits) similar to
-      information in Shannon's theory of information. In the
-      general definition of information (GDI), information is
-      "meaningful, well-formed data". With data as signs,
-      information starts where models and meanings of data
-      refer to outside of the digital domain.
+* the pattern language is not just another data technology.
+* patterns should help human beings, not computers
+* application of design patterns in software engineering shows
+  that patterns are misused as formalizations
+* `<pattern>this is not a pattern</pattern>`
 
-## Possible Questions
+## How to find the *correct and accurate pattern*?
 
-* How does one find the **correct and accurate pattern** to
-  represent a piece of information?
+* not one *correct* pattern but several *adequate* patterns
+* patterns are not meant to *represent* data or information, but they
+  describe the problem or motivation that led to a particular form of data.
+* for instance one might define a canoncial form to express
+  sequences. This form, however, would not be the sequence
+  pattern, but *one application* of the sequence pattern.
 
-    * The patterns are not meant to *represent* data or
-      information but to describe the problem or motivation
-      that led to a particular form of data. There is not one
-      *correct* pattern but there are adequate patterns.
+## Metadata?
 
-    * For instance one might define a canoncial form to express
-      sequences. This form, however, would not be the sequence
-      pattern, but *one application* of the sequence pattern.
+* metadata as
+
+    * facts, measurements or observations
+    * **data definition** (schemas, formats, rules...)
+
+* any digital document that structures or describes other data
+* examples: document model, database schema...
+
+## Data as digital signs: insights from semiotics
+
+* signs are part of an unlimited semiosis
+* *meta* depends on the level of description
+
+![unlimited semiosis](img/semiosis.png)
+
+## Data modeling
+
+creation of data is an an act of design, often performed implicitly.
+
+![simplified data modeling process](img/simpledatamodeling.png)
+
+## How does the results about data relate to *information*?
+
+* My thesis is not about information but about data.
+  Data are *differences* (eventually bits) similar to
+  information in Shannon's theory of information. In the
+  general definition of information (GDI), information is
+  "meaningful, well-formed data". With data as signs,
+  information starts where models and meanings of data
+  refer to outside of the digital domain.

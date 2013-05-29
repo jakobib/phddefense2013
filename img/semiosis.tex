@@ -1,0 +1,30 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{positioning,matrix,backgrounds}
+\begin{document}
+
+\begin{tikzpicture}[
+    font=\sffamily\small,line width=0.25mm,
+    show background rectangle,background rectangle/.style={fill=white}
+]
+
+\node (data) at (-25mm,0) {data};
+\node (meaning) at (+25mm,0) {meaning/content};
+\node (methods) at (0,25mm) {};
+\draw[dotted,->] (data.east) to (meaning.west);
+\draw (data) to (methods) to (meaning);
+
+\begin{scope}[line width=0.25mm,gray]
+\draw (methods) to ++(12mm,12mm) node (methods2) {};
+\draw (methods2) ++(12mm,-12mm) node (meaning2) {};
+\draw[line width=0.25mm,dotted,->] (methods) to (meaning2);
+\end{scope}
+
+\begin{scope}[line width=0.125mm,lightgray]
+\draw (methods2) to ++(6mm,6mm) node (methods3) {};
+\draw (methods3) ++(6mm,-6mm) node (meaning3) {};
+\draw[line width=0.25mm,dotted,->] (methods2) to (meaning3);
+\end{scope}
+
+\end{tikzpicture}
+\end{document}
